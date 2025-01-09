@@ -3,34 +3,107 @@
     border-bottom: solid 0.5px #E3E3E3;
 }
 
+@media screen and (min-width:768px) {
+    .header {
+        padding: 26px 32px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .header {
+        padding: 26px 64.5px;
+    }
+}
+
 .hdr {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.navigation {}
+.navigation {
+    display: flex;
+    align-items: baseline;
+}
+
+@media screen and (min-width: 1280px) {
+    .navigation {
+        gap: 203px;
+        align-items: normal;
+    }
+}
 
 .company-logo {
-    font-family: "Gilroy", sans-serif;
     font-weight: 500;
     font-size: 16px;
     letter-spacing: -0.02em;
     color: #0c0c0c;
+}
 
+@media screen and (min-width:768px) {
+    .company-logo {
+        font-size: 20px;
+    }
 }
 
 .hdr-nav-menu {
     display: none;
 }
 
+@media screen and (min-width: 1280px) {
+    .hdr-nav-menu {
+        display: flex;
+        align-items: baseline;
+        gap: 40px;
+
+    }
+}
+
 .hdr-nav-menu-item {}
 
-.nav-menu-item-link {}
+.psevdo {
+    display: none;
+}
+
+
+@media screen and (min-width: 1280px) {
+    .psevdo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2px;
+    }
+
+    .psevdo::after {
+        content: "";
+        border-radius: 100%;
+        background-color: #3350e9;
+        width: 8px;
+        height: 8px;
+    }
+}
+
+
+.nav-menu-item-link {
+    display: none;
+}
+
+@media screen and (min-width: 1280px) {
+    .nav-menu-item-link {
+        display: flex;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.28571;
+        text-align: center;
+        color: #0c0c0c;
+    }
+}
 
 .hdr-social-links {
     display: none;
 }
+
 
 .hdr-social-links-list {}
 
@@ -41,4 +114,10 @@
 .hdr-menu-button {
     /* background-color: transparent;*/
     border: none;
+}
+
+@media screen and (min-width: 1280px) {
+    .hdr-menu-button {
+        display: none;
+    }
 }
