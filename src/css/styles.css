@@ -5,11 +5,12 @@
   |============================
 */
 /* Common styles */
+@import url('./origin-styles/fonts.css');
 @import url('./origin-styles/reset.css');
 @import url('./origin-styles/base.css');
 @import url('./origin-styles/container.css');
 @import url('./origin-styles/animations.css');
-@import url('./origin-styles/fonts.css');
+
 
 /* Sections style */
 @import url('./header.css');
