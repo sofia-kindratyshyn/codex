@@ -1,6 +1,13 @@
-.header {}
+.header {
+    padding: 20px;
+    border-bottom: solid 0.5px #E3E3E3;
+}
 
-.container {}
+.hdr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 .navigation {}
 
@@ -13,16 +20,25 @@
 
 }
 
-.hdr-nav-menu {}
+.hdr-nav-menu {
+    display: none;
+}
 
 .hdr-nav-menu-item {}
 
 .nav-menu-item-link {}
 
-.hdr-social-links {}
+.hdr-social-links {
+    display: none;
+}
 
 .hdr-social-links-list {}
 
 .hdr-social-links-item {}
 
 .hdr-social-links-item-logo {}
+
+.hdr-menu-button {
+    /* background-color: transparent;*/
+    border: none;
+}
