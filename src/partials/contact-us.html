@@ -1,4 +1,32 @@
 <section class="contact-us">
-    <div class="container">
+    <div class="container div-cont">
+        <h2 class="h-cont">Contact us</h2>
+            <div class="div-model-foto">
+                <div class="div-model">
+                    <P class="p-text">Please use the form below to contact us. Enter your name, email, phone, and message and we'll get back to you shortly.</P>
+                    <form class="form-cont">
+                        <div class="div-form-cont">
+                            <label class="label" for="user-name"></label>
+                            <input class="input-cont" type="text" id="user-name" name="user-name" placeholder="Name" required>
+                        </div>
+                        <div class="div-form-cont">
+                            <label class="label" for="user-email"></label>
+                             <input class="input-cont" type="text" id="user-email" name="user-name" placeholder="Email" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" required>
+                        </div>
+                        <div class="div-form-cont">
+                            <label class="label" for="user-phone"></label>
+                             <input class="input-cont" type="text" id="user-phone" name="user-name" placeholder="380" pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$" required>
+                        </div>
+                        <div class="div-form-cont">
+                            <label class="label" for="user-name"></label>
+                             <textarea class="form-comment" type="text" id="user-name" name="user-name" placeholder="Comment" required></textarea>
+                        </div>
+                        <button class="button-cont" type="submit">Send</button>
+                    </form>
+                </div>
+                <div class="img-cont">
+                    <img src="../img/contact-us/Rectangle.jpg" alt="Rectangle 11">
+                </div>
+            </div>
     </div>
 </section>
