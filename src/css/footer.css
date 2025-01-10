@@ -31,8 +31,13 @@ footer .container {
   background-color: #0c0c0c;
   border-radius: 30px;
   padding: 40px 28px 28px 28px;
+  min-width: 100%;
 }
-
+.logo-social {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 .footer-logo {
   color: rgb(251, 251, 251);
   font-family: Gilroy;
@@ -41,7 +46,6 @@ footer .container {
   line-height: 1.2;
   letter-spacing: -0.02em;
   text-align: left;
-  margin-bottom: 20px;
 }
 
 .social-list {
@@ -64,10 +68,15 @@ footer .container {
   background-color: transparent;
 }
 footer .icon {
-  fill: rgba(251, 251, 251);
+  fill: #cbcbcb;
   width: 18px;
   height: 18px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.social-item:hover .icon {
+  fill: #fbfbfb;
+}
+
 .tel-box {
   width: 154px;
   height: 44px;
@@ -95,7 +104,7 @@ footer .icon {
 
 .menu-adress {
   display: flex;
-  width: 279px;
+  min-width: 100%;
   justify-content: space-between;
   margin-bottom: 24px;
 }
@@ -129,7 +138,7 @@ footer .icon {
 /* Tablet */
 @media only screen and (min-width: 768px) {
   footer .container {
-    width: 704px;
+    min-width: 100%;
     padding: 40px 40px 28px 40px;
   }
   .footer-logo {
@@ -149,6 +158,14 @@ footer .icon {
     flex-direction: column;
     height: 80px;
   }
+  .social-item {
+    width: 36px;
+    height: 36px;
+  }
+  footer .icon {
+    width: 20px;
+    height: 20px;
+  }
   .tel-box {
     width: 162px;
     height: 48px;
@@ -164,20 +181,20 @@ footer .icon {
     line-height: 1.15;
     letter-spacing: -0.02em;
     text-align: center;
-    margin: 0 50px 100px;
+    margin: 0 auto 100px;
   }
   .menu-adress {
-    width: 624px;
+    min-width: 100%;
     margin-bottom: 28px;
   }
   .footer-menu {
-    width: 400px;
+    min-width: 400px;
     gap: 19px;
     flex-wrap: nowrap;
   }
   .adress {
     text-align: left;
-    width: 162px;
+    min-width: 162px;
   }
   .footer-copyright {
     display: flex;
@@ -192,3 +209,21 @@ footer .icon {
 }
 
 /* Desktop */
+@media only screen and (min-width: 1280px) {
+  footer .container {
+    position: relative;
+  }
+  .footer-text {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 0;
+  }
+  .top-footer {
+    margin-bottom: 142px;
+  }
+  .horizontal {
+    margin-bottom: 28px;
+  }
+}
