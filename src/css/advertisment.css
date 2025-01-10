@@ -1,0 +1,33 @@
+.advertisment {
+    width: 100%;
+    padding: 0 80px;
+    
+}
+
+.advertisment-block {
+    display: flex;
+    display-flex: row;
+    justify-content: space-between;
+}
+
+.advertisment-text {
+    color: #FBFBFB;
+    font-weight: 800;
+    font-size: 48px;
+    letter-spacing: 0.02em;
+    line-height: 0.92;
+    
+}
+
+.advertisment-text-color {
+    color:rgba(251, 251, 251, 0.5)
+}
+
+.advertisment-btn {
+    font-weight: 500;
+    line-height: 1.29;
+    text-align: center;
+    padding: 15px 43px;
+    border: 2px solid rgba(251, 251, 251, 0.15);
+    border-radius: 16px;
+}
