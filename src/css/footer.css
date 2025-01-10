@@ -18,7 +18,6 @@
 }
 
 @media only screen and (min-width: 768px) {
-
   .tel,
   .footer-menu,
   .adress,
@@ -29,7 +28,6 @@
 }
 
 @media only screen and (min-width: 768px) {
-
   .tel,
   .footer-menu,
   .adress,
@@ -40,11 +38,14 @@
 }
 
 /* Footer */
+.footer {
+  padding-left: 20px;
+  padding-right: 20px;
+}
 footer .container {
   background-color: #0c0c0c;
   border-radius: 30px;
   padding: 40px 28px 28px 28px;
-  min-width: 100%;
 }
 .logo-social {
   display: flex;
@@ -91,7 +92,6 @@ footer .icon {
 .social-item:hover .icon {
   fill: #fbfbfb;
 }
-
 
 .tel-box {
   width: 154px;
@@ -144,10 +144,11 @@ footer .icon {
   border-left: none;
   border-right: none;
   border-bottom: none;
-  margin-top: 0;
-  margin-bottom: 24px;
+  margin: 0;
 }
-
+.footer-copyright {
+  margin-top: 24px;
+}
 .copyright {
   margin-bottom: 8px;
 }
@@ -158,8 +159,11 @@ footer .icon {
 
 /* Tablet */
 @media only screen and (min-width: 768px) {
+  .footer {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
   footer .container {
-    min-width: 100%;
     padding: 40px 40px 28px 40px;
   }
 
@@ -176,11 +180,12 @@ footer .icon {
     justify-content: space-between;
     margin-bottom: 86px;
   }
-
+  .social-list {
+    margin-bottom: 0;
+  }
   .logo-social {
     display: flex;
     flex-direction: column;
-    height: 80px;
   }
   .social-item {
     width: 36px;
@@ -254,7 +259,7 @@ footer .icon {
   .top-footer {
     margin-bottom: 142px;
   }
-  .horizontal {
-    margin-bottom: 28px;
+  .footer-copyright {
+    margin-top: 28px;
   }
 }
