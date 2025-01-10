@@ -1,38 +1,56 @@
 
+
 @media only screen and (min-width: 768px) {
+    .advertisment {
+        max-width: 100%;
+        padding: 60px 80px;
+        background-image: linear-gradient(to bottom,
+        rgba(12, 12, 12, 1),
+        rgba(12, 12, 12, 1)), url(/advertisment/advertisment-desk.png), no-repeat, opasity 20%;
+    }
+    .advertisment-block {
+        display: flex;
+        display-flex: row;
+        justify-content: center;
+    }
+
+    .advertisment-text {
+        color: #FBFBFB;
+        font-weight: 600;
+        font-size: 48px;
+        letter-spacing: 0.02em;
+        line-height: 0.92;
+        
+    }
+    
+    .advertisment-text-color {
+        color:rgba(251, 251, 251, 0.5)
+    }
+}
+
+@media only screen (min-resolution: 192dpi),
+(min-resolution: 2dppx){
 
 }
 
 @media only screen and (min-width: 1157px) {
 
 .advertisment {
-    width: 100%;
+    max-width: 100%;
     padding: 0 80px;
     background-image: linear-gradient(to bottom,
     rgba(12, 12, 12, 1),
-    rgba(12, 12, 12, 1)), url(./img/advertisment-desk.png);
-    background-repeat: no-repeat;
-    border-radius: 20%;
-    
+    rgba(12, 12, 12, 1)), url(/advertisment/advertisment-desk.png), no-repeat, opasity 20%;
 }
 
 .advertisment-block {
     display: flex;
-    display-flex: row;
     justify-content: space-between;
 }
 
 .advertisment-text {
     color: #FBFBFB;
     font-weight: 800;
-    font-size: 48px;
-    letter-spacing: 0.02em;
-    line-height: 0.92;
-    
-}
-
-.advertisment-text-color {
-    color:rgba(251, 251, 251, 0.5)
 }
 
 .advertisment-btn {
@@ -43,4 +61,9 @@
     border: 2px solid rgba(251, 251, 251, 0.15);
     border-radius: 16px;
 }
+}
+
+@media only screen and (min-width: 1158px) and (min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+
 }
