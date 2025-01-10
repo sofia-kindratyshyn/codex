@@ -28,12 +28,24 @@
   }
 }
 
+@media only screen and (min-width: 768px) {
+
+  .tel,
+  .footer-menu,
+  .adress,
+  .copyright,
+  .footer-links {
+    font-size: 14px;
+  }
+}
+
 /* Footer */
 footer .container {
   background-color: #0c0c0c;
   border-radius: 30px;
   padding: 40px 28px 28px 28px;
 }
+
 
 .footer-logo {
   color: rgb(251, 251, 251);
