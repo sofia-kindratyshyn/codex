@@ -18,6 +18,7 @@
 }
 
 @media only screen and (min-width: 768px) {
+
   .tel,
   .footer-menu,
   .adress,
@@ -28,6 +29,7 @@
 }
 
 @media only screen and (min-width: 768px) {
+
   .tel,
   .footer-menu,
   .adress,
@@ -38,20 +40,19 @@
 }
 
 /* Footer */
-.footer {
-  padding-left: 20px;
-  padding-right: 20px;
-}
+
 footer .container {
   background-color: #0c0c0c;
   border-radius: 30px;
   padding: 40px 28px 28px 28px;
 }
+
 .logo-social {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
+
 .footer-logo {
   color: rgb(251, 251, 251);
   font-size: 16px;
@@ -89,6 +90,7 @@ footer .icon {
   height: 18px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .social-item:hover .icon {
   fill: #fbfbfb;
 }
@@ -146,9 +148,11 @@ footer .icon {
   border-bottom: none;
   margin: 0;
 }
+
 .footer-copyright {
   margin-top: 24px;
 }
+
 .copyright {
   margin-bottom: 8px;
 }
@@ -163,6 +167,7 @@ footer .icon {
     padding-left: 32px;
     padding-right: 32px;
   }
+
   footer .container {
     padding: 40px 40px 28px 40px;
   }
@@ -180,21 +185,26 @@ footer .icon {
     justify-content: space-between;
     margin-bottom: 86px;
   }
+
   .social-list {
     margin-bottom: 0;
   }
+
   .logo-social {
     display: flex;
     flex-direction: column;
   }
+
   .social-item {
     width: 36px;
     height: 36px;
   }
+
   footer .icon {
     width: 20px;
     height: 20px;
   }
+
   .tel-box {
     width: 162px;
     height: 48px;
@@ -249,6 +259,7 @@ footer .icon {
   footer .container {
     position: relative;
   }
+
   .footer-text {
     position: absolute;
     top: 40px;
@@ -256,9 +267,11 @@ footer .icon {
     transform: translateX(-50%);
     margin-bottom: 0;
   }
+
   .top-footer {
     margin-bottom: 142px;
   }
+
   .footer-copyright {
     margin-top: 28px;
   }
