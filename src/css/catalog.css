@@ -123,6 +123,6 @@ margin-top: 40px;
     }
     .catalog-item {
         width: calc((100% - 46px) / 3);
-        margin: auto;
+        
     }
 }
