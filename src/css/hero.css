@@ -1,53 +1,69 @@
-@media screen and (max-width: 767px){
-.hero{
+.hero {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
     gap: 28px;
 }
-.hero-title-text{
+
+.hero-title-text {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
     gap: 20px;
 }
-.hero-title{
+
+.hero-title {
     font-weight: 600;
     font-size: 40px;
     line-height: 0.95;
     letter-spacing: -0.02em;
     color: #0c0c0c;
 }
-.hero-title-span{
+
+.hero-title-span {
     color: #3350e9;
 }
-.hero-fotos-btn{
+
+.hero-fotos-btn {
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
     flex-direction: row;
     gap: 155px;
 }
-.hero-btn{
+
+.hero-btn {
+    border: none;
+    background-color: transparent;
     font-family: "Gilroy", sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.28571;
     letter-spacing: -0.02em;
-    text-decoration: underline;
-    text-decoration-skip-ink: none;
     color: #0c0c0c;
+    position: relative;
+    padding: 0;
+    margin-bottom: 28px;
 }
-.hero-text{
+
+.hero-btn {
+    text-decoration: underline;
+    text-decoration-thickness: 0.8px;
+    /* Товщина лінії */
+    text-underline-offset: 2.7px;
+    /* Відстань між текстом і лінією */
+}
+
+
+.hero-text {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.28571;
     letter-spacing: -0.02em;
     color: rgba(12, 12, 12, 0.7);
 }
-}
-@media screen and (min-width: 768px){
 
-}
+
+@media screen and (min-width: 768px) {}
