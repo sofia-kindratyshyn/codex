@@ -6,17 +6,16 @@
     line-height: 1;
     letter-spacing: -0.02em;
     color: #0c0c0c;
+    margin-bottom: 24px;
 }
 
 
 .div-model-foto{
-    padding-top: 24px;
     display: flex;
     flex-direction: column; 
     justify-content: center;
     align-items: center;
     gap: 20px;
-
 }
 
 .div-model{
@@ -34,15 +33,20 @@
 }
 
 .div-form-cont{
-    padding-bottom: 18px;
+    padding-top: 18px;
 }
+
+
+.div-form-cont:first-child{
+    padding-top: 0;
+} 
 
 .p-text{
     padding-bottom: 28px;
     font-family: "Gilroy", sans-serif;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.28571;
+    line-height: 1.2;
     letter-spacing: -0.02em;
     color: rgba(12, 12, 12, 0.7);
 }
@@ -50,12 +54,12 @@
 .input-cont{
     border: 1px solid rgba(12, 12, 12, 0.15);
     border-radius: 12px;
-    padding: 12px 136px 12px 14px;
     width: 279px;
     height: 42px; 
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
     background-color: transparent;
-    outline: transparent;  
+    outline: transparent; 
+    padding-left: 14px;
 }
 
 .input-cont:focus{
@@ -65,14 +69,15 @@
 .form-comment{
 border: 1px solid rgba(12, 12, 12, 0.15);
 border-radius: 12px;
-padding: 12px 136px 54px 14px;
 width: 279px;
 height: 84px;
-resize: none;
-overflow: hidden;
+    resize: none;
+    overflow: hidden;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
     background-color: transparent;
     outline: transparent;  
+    padding-top: 12px;
+    padding-left: 14px;
 }
 
 .form-comment:focus{
@@ -94,6 +99,7 @@ align-items: center;
 justify-content: center;
 text-align: center;
 color: #fbfbfb;
+margin-top: 28px;
 }
 
 
@@ -114,11 +120,10 @@ color: #0c0c0c;
 }
 
 .img-cont img{
-    display: block;
     border-radius: 30px;
-width: 335px;
-height: 512px;
-object-fit:cover;
+    object-fit:cover;
+    width: 335px;
+    height: 512px;
 }
 
 
@@ -130,11 +135,12 @@ object-fit:cover;
         width: 704px;
     }
     .input-cont{
-        padding: 16px 398px 16px 18px;
+        padding-left: 16px;
         width: 460px;
     }
     .form-comment{
-        padding: 16px 315px 54px 16px;
+        padding-top: 16px;
+        padding-left: 16px;
         width: 460px;
     }
     .button-cont{
@@ -149,6 +155,7 @@ object-fit:cover;
         font-size: 16px;
         line-height: 1.25;
         width: 460px;
+        padding-bottom: 32px;
     }
     .h-cont{
         font-size: 48px;
@@ -156,6 +163,9 @@ object-fit:cover;
     }
     .div-model-foto{
         gap: 40px;
+    }
+    .button-cont{
+      margin-top: 32px;
     }
 }
 
@@ -167,14 +177,13 @@ object-fit:cover;
     }
     .div-model{
         border-radius: 50px;
-        padding: 50px 122px;
         width: 580px;
     }
     .img-cont img{
         width: 526px;
     }
-
 }
+
 
 
 
