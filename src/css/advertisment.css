@@ -59,9 +59,8 @@
     .advertisment {
         max-width: 100%;
         padding: 60px 80px;
-        background-image: (to bottom,
-        rgba(12, 12, 12, 1),
-        rgba(12, 12, 12, 1)), url('./images/advertisment/advertisment-desk.webp'), no-repeat;
+        background-color: rgba(12, 12, 12, 1);
+        background-image: (to bottom, url('./images/advertisment/advertisment-desk.webp')), no-repeat;
         opacity: 0.2;
 
     }
@@ -91,10 +90,9 @@
 .advertisment {
     max-width: 100%;
     padding: 83px 80px;
-    background-image: (to bottom,
-        rgba(12, 12, 12, 1),
-        rgba(12, 12, 12, 1)), url('./images/advertisment/advertisment-desk.webp'), no-repeat;
-        opacity: 0.2;
+    background-color: rgba(12, 12, 12, 1);
+    background-image: (to bottom, url('./images/advertisment/advertisment-desk.webp')), no-repeat;
+    opacity: 0.2;
 }
 
 .advertisment-block {
