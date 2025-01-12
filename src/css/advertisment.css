@@ -24,20 +24,25 @@
     color:rgba(251, 251, 251, 0.5);
 }
 
+.btm-adver {
+    margin: 0;
+    padding: 0;
+}
 .advertisment-block-btn {
     border: 1px solid rgba(251, 251, 251, 0.15);
+    background-color: rgba(251, 251, 251, 0);
     border-radius: 16px;
     padding: 15px 43px;
     color:#fbfbfb;
     font-weight: 500;
-    text-align: center;
+    text-align: bottom;
 }
 
 .advertisment-block-btn:hover,
 .advertisment-block-btn:focus {
-    background-color: #dcc6c6;
+    background-color: #fbfbfb;
     color: #0C0C0C;
-    border: 1px solid rgba(251, 251, 251, 0.15);
+    border: 1px solid #0C0C0C;
 
 }
 
@@ -99,7 +104,6 @@
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
-    justify-content: space-between;
 }
 
 .advertisment-text {
@@ -113,6 +117,9 @@
     border: 2px solid rgba(251, 251, 251, 0.15);
     border-radius: 16px;
     margin-right: 140px;
+    position: absolute;
+    top: 80px;
+    right: 80px;
 }
 }
 
