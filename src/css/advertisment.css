@@ -2,13 +2,15 @@
     max-width: 100%;
     padding: 28px 60px;
     background-color: rgba(12, 12, 12, 1);
-    background-image: url('./images/advertisment-desk.webp'), no-repeat;
+    background-image: url(/images/advertisment-desk.webp), no-repeat;
+    border-radius: 30px;
     opacity: 0.2;
 }
 .advertisment-block {
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
+    border-radius: 30px;
 }
 
 .advertisment-text {
@@ -61,7 +63,7 @@
         max-width: 100%;
         padding: 60px 80px;
         background-color: rgba(12, 12, 12, 1);
-        background-image: (to bottom, url('./images/advertisment/advertisment-desk.webp')), no-repeat;
+        background-image: (to bottom, url(/images/advertisment/advertisment-desk.webp)), no-repeat;
         opacity: 0.2;
 
     }
@@ -92,7 +94,7 @@
     max-width: 100%;
     padding: 83px 80px;
     background-color: rgba(12, 12, 12, 1);
-    background-image: (to bottom, url('./images/advertisment/advertisment-desk.webp')), no-repeat;
+    background-image: (to bottom, url(/images/advertisment/advertisment-desk.webp)), no-repeat;
     opacity: 0.2;
 }
 
@@ -122,4 +124,9 @@
 @media only screen and (min-width: 1280px) and (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
 
+.advertisment {
+    background-color: rgba(12, 12, 12, 1);
+    background-image: (to bottom, url(/images/advertisment/advertisment-desk.webp)), no-repeat;
+    opacity: 0.2;
+}
 }
