@@ -1,5 +1,7 @@
 
 .hero{
+    padding-right:20px;
+    padding-left:20px;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -49,7 +51,11 @@
     font-size: 14px;
     line-height: 1.29;
     letter-spacing: -0.02em;
+    text-decoration-thickness: 0.8px;
+    text-underline-offset: 2.7px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .hero-btn:focus,
 .hero-btn:hover{
    
@@ -96,18 +102,19 @@
 .hero-foto3{
     position: absolute;
     top: 0;
-    left: 50px;
+    right: 0;
     z-index: 3;   
 }
 .hero-picture{
     border-radius: 30px;
     max-width: 335px;
     height: 366px;
-    background-image: linear-gradient(rgba(12, 12, 12, 0.2),rgba(12, 12, 12, 0.2)), url(../img/hero_images/Rectangle.webp);
+    background: #fbfbfb;
+    background-image: url(../img/hero_images/Rectangle.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-  
+    
 }
 .hero-two-wrap{
     margin-top: 60px;
@@ -117,7 +124,8 @@
 	(min-resolution: 192dpi),
 	(min-resolution: 2dppx) {
         .hero-picture {
-            background-image: linear-gradient(rgba(12, 12, 12, 0.2),rgba(12, 12, 12, 0.2)), url(../img/hero_images/Rectangle@2x.webp);
+            background: #fbfbfb;
+            background-image: url(../img/hero_images/Rectangle@2x.webp);
         }
 	}
 
@@ -180,17 +188,19 @@
             height: 260px;
         }
         .hero-picture{
-      
+            border-radius: 50px;
             max-width: 704px;
             height: 520px;
-            background-image: linear-gradient(rgba(12, 12, 12, 0.2),rgba(12, 12, 12, 0.2)), url(../img/hero_images/Rectangle_tab.webp);
+            background: #fbfbfb;
+            background-image: url(../img/hero_images/Rectangle_tab.webp);
    
         }
         @media (min-device-pixel-ratio: 2),
 	(min-resolution: 192dpi),
 	(min-resolution: 2dppx) {
         .hero-picture {
-            background-image: linear-gradient(rgba(12, 12, 12, 0.2),rgba(12, 12, 12, 0.2)), url(../img/hero_images/Rectangle_tab@2x.webp);
+            background: #fbfbfb;
+            background-image: url(../img/hero_images/Rectangle_tab@2x.webp);
         }
         
 	}
@@ -208,14 +218,16 @@
             border-radius: 50px;
             max-width: 1150px;
             height: 500px;
-            background-image: linear-gradient(rgba(12, 12, 12, 0.2),rgba(12, 12, 12, 0.2)), url(../img/hero_images/Rectangle_dest.webp);
+            background: #fbfbfb;
+            background-image: url(../img/hero_images/Rectangle_dest.webp);
    
         }
         @media (min-device-pixel-ratio: 2),
 	    (min-resolution: 192dpi),
 	    (min-resolution: 2dppx) {
         .hero-picture {
-            background-image: linear-gradient(rgba(12, 12, 12, 0.2),rgba(12, 12, 12, 0.2)), url(../img/hero_images/Rectangle_desk@2x.webp);
+            background: #fbfbfb;
+            background-image: url(../img/hero_images/Rectangle_desk@2x.webp);
         }
 	    }
         .hero-two-wrap{
