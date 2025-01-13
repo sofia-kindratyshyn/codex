@@ -67,10 +67,10 @@
 }
 
 .form-comment{
-border: 1px solid rgba(12, 12, 12, 0.15);
-border-radius: 12px;
-width: 279px;
-height: 84px;
+    border: 1px solid rgba(12, 12, 12, 0.15);
+    border-radius: 12px;
+    width: 279px;
+    height: 84px;
     resize: none;
     overflow: hidden;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
@@ -86,37 +86,37 @@ height: 84px;
 
 .button-cont{
     border-radius: 16px;
-padding: 12px 50px;
-width: 134px;
-background: #3350e9;
-border: none;
-font-family: "Gilroy", sans-serif;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.28571;
-display: flex;
-align-items: center;
-justify-content: center;
-text-align: center;
-color: #fbfbfb;
-margin-top: 28px;
+    padding: 12px 50px;
+    width: 134px;
+    background: #3350e9;
+    border: none;
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28571;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fbfbfb;
+    margin-top: 28px;
 }
 
 
 .form-comment::placeholder{
     font-family: "Gilroy", sans-serif;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.25;
-color: #0c0c0c;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #0c0c0c;
 }
 
 .input-cont::placeholder{
     font-family: "Gilroy", sans-serif;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.25;
-color: #0c0c0c;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #0c0c0c;
 }
 
 .img-cont img{
