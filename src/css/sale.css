@@ -1,31 +1,6 @@
 ul {
   list-style-type: none;
 }
-
-/* Styles for Mobile devices */
-.container {
-  max-width: 335px;
-  margin: 0 auto;
-}
-
-/* Styles for Tablet devices */
-@media only screen and (min-width: 768px) {
-  .container {
-    max-width: 704px;
-  }
-}
-
-/* Styles for Desktop devices */
-@media only screen and (min-width: 1280px) {
-  .container {
-    max-width: 1150px;
-  }
-  .sale-section {
-    display: flex;
-    align-items: center;
-    height: auto;
-  }
-}
 .sale-section {
   display: flex;
   flex-direction: column;
