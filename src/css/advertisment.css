@@ -14,7 +14,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
-    padding: 28px 60px;
+    padding: 60px 28px;
     border-radius: 30px;
 }
 
@@ -22,22 +22,22 @@
     color: #fbfbfb;
     font-weight: 600;
     font-size: 32px;
-    letter-spacing: 0.02em;
+    letter-spacing: -0.02em;
     line-height: 1;
     margin-bottom: 28px;
     text-align: left;
 }
 
 .advertisment-text-color {
-    color:rgba(251, 251, 251, 0.5);
+    color: rgba(251, 251, 251, 0.5);
 }
- 
+
 .advertisment-block-btn {
     border: 1px solid rgba(251, 251, 251, 0.15);
     background-color: rgba(251, 251, 251, 0);
     border-radius: 16px;
     padding: 15px 43px;
-    color:#fbfbfb;
+    color: #fbfbfb;
     font-weight: 500;
     text-align: bottom;
 }
@@ -51,16 +51,16 @@
 }
 
 .visually-hidden {
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        margin: -1px;
-        border: 0;
-        padding: 0;
-        white-space: nowrap;
-        clip-path: inset(100%);
-        clip: rect(0 0 0 0);
-        overflow: hidden;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 @media only screen and (min-resolution: 192dpi) and (min-resolution: 2dppx) {
@@ -77,19 +77,17 @@
         background-color: rgba(12, 12, 12, 1);
         background-image: url(/img/advertisment/advertisment-tab.webp);
         background-repeat: no-repeat;
-        }
+    }
 
     .advertisment-block {
         display: flex;
-        display-flex: row;
-        padding: 60px 80px;
+        padding: 80px 64px;
     }
 
     .advertisment-text {
         color: #fbfbfb;
         font-size: 48px;
-        letter-spacing: 0.02em;
-        line-height: 0.92;
+        line-height: 0.91;
         margin-bottom: 32px;
     }
 
@@ -106,35 +104,37 @@
 
 @media only screen and (min-width: 1280px) {
 
-.advertisment {
-    max-width: 1150px;
-    background-color: rgba(12, 12, 12, 1);
-    background-image: url(/img/advertisment/advertisment-desk.webp);
-    background-repeat: no-repeat;
-}
+    .advertisment {
+        max-width: 1150px;
+        background-color: rgba(12, 12, 12, 1);
+        background-image: url(/img/advertisment/advertisment-desk.webp);
+        background-repeat: no-repeat;
+    }
 
-.advertisment-block {
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: bottom;
-}
+    .advertisment-block {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: bottom;
+        padding: 83px 80px;
+    }
 
-.btm-adver {
-    margin-left: auto;
-}
-.advertisment-text {
-    max-width: 690px;
-    text-align-last: left;
-}
+    .btm-adver {
+        margin-left: auto;
+    }
 
-.advertisment-block-btn {
-    font-weight: 500;
-    text-align: center;
-    padding: 15px 43px;
-    border: 2px solid rgba(251, 251, 251, 0.15);
-    border-radius: 16px;
-    /* margin-right: 140px; */
-}
+    .advertisment-text {
+        max-width: 690px;
+        text-align-last: left;
+    }
+
+    .advertisment-block-btn {
+        font-weight: 500;
+        text-align: center;
+        padding: 15px 43px;
+        border: 2px solid rgba(251, 251, 251, 0.15);
+        border-radius: 16px;
+        /* margin-right: 140px; */
+    }
 
 }
 
