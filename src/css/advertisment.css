@@ -5,9 +5,8 @@
     background-image: url(/img/advertisment/advertisment-mob.webp);
     background-repeat: no-repeat;
     background-color: rgba(12, 12, 12, 1);
-    /* opacity: 0.2; */
     margin: 0 auto;
-    /* background-cover: ; */
+    background-size: cover;
 }
 
 .advertisment-block {
@@ -15,6 +14,7 @@
     flex-wrap: wrap;
     justify-content: left;
     padding: 28px 60px;
+    border-radius: 30px;
 }
 
 .advertisment-text {
@@ -69,7 +69,6 @@
         background-color: rgba(12, 12, 12, 1);
         background-image: url(/img/advertisment/advertisment-tab.webp);
         background-repeat: no-repeat;
-        opacity: 0.2;
         }
 
     .advertisment-block {
@@ -93,8 +92,7 @@
         background-color: rgba(12, 12, 12, 1);
         background-image: url(/img/advertisment/advertisment-tab@2x.webp);
         background-repeat: no-repeat;
-        opacity: 0.2;
-        }
+    }
 }
 
 
@@ -105,16 +103,17 @@
     background-color: rgba(12, 12, 12, 1);
     background-image: url(/img/advertisment/advertisment-desk.webp);
     background-repeat: no-repeat;
-    opacity: 0.2;
-
 }
 
 .advertisment-block {
     display: flex;
     flex-wrap: nowrap;
-    align-items: center;
+    align-items: bottom;
 }
 
+.btm-adver {
+    margin-left: auto;
+}
 .advertisment-text {
     max-width: 690px;
     text-align-last: left;
@@ -126,11 +125,9 @@
     padding: 15px 43px;
     border: 2px solid rgba(251, 251, 251, 0.15);
     border-radius: 16px;
-    margin-right: 140px;
-    position: absolute;
-    top: 80px;
-    right: 80px;
+    /* margin-right: 140px; */
 }
+
 }
 
 @media only screen and (min-width: 1280px) and (min-resolution: 192dpi),
@@ -140,6 +137,5 @@
     background-color: rgba(12, 12, 12, 1);
     background-image: url(/img/advertisment/advertisment-desk@2x.webp);
     background-repeat: no-repeat;
-    opacity: 0.2;
 }
 }
