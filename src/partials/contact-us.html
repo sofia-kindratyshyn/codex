@@ -1,4 +1,4 @@
-<section class="contact-us">
+<section class="contact-us" id="contact-us">
     <div class="container div-cont">
         <h2 class="h-cont">Contact us</h2>
             <div class="div-model-foto">
@@ -15,17 +15,40 @@
                         </div>
                         <div class="div-form-cont">
                             <label class="label" for="user-phone"></label>
-                             <input class="input-cont" type="tel" id="user-phone" name="user-phone" placeholder="380" attern="[0-9]{3}-[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{2}" required>
+                             <input class="input-cont" type="tel" id="user-phone" name="user-phone" placeholder="380" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{2}" required>
                         </div>
                         <div class="div-form-cont">
                             <label class="label" for="user-comment"></label>
-                             <textarea class="form-comment" id="user-comment" name="user-name" placeholder="Comment" required></textarea>
+                             <textarea class="form-comment" type="text" id="user-comment" name="user-comment" placeholder="Comment" required rows="1"></textarea>
                         </div>
                         <button class="button-cont" type="submit">Send</button>
                     </form>
                 </div>
                 <div class="img-cont">
-                    <img src="../img/contact-us/Rectangle.jpg" alt="Rectangle 11">
+                    <picture>
+                        <source
+                          media="(min-width: 1280px)"
+                          srcset="/img/contact-us/Rectangle_pc_1x.jpg  1x,
+                                  /img/contact-us/Rectangle_pc_2x.jpg  2x"
+                        />
+                        <source
+                          media="(min-width: 768px)"
+                          srcset="
+                            /img/contact-us/Rectangle_table_1x.jpg 1x,
+                            /img/contact-us/Rectangle_table_2x.jpg 2x
+                          "
+                        />
+                        <source
+                          media="(max-width: 767px)"
+                          srcset="/img/contact-us/Rectangle_phone_1x.jpg  1x,
+                                  /img/contact-us/Rectangle_phone_2x.jpg  2x"
+                        />
+                        <img
+                          class="contact-us-images"
+                          src="../img/contact-us/Rectangle_pc_1x.jpg"
+                          alt="Rectangle 11"
+                        />
+                      </picture>
                 </div>
             </div>
     </div>
