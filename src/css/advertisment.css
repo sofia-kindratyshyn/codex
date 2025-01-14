@@ -67,7 +67,8 @@
     .advertisment {
         max-width: 704px;
         background-color: rgba(12, 12, 12, 1);
-        background-image: url(/img/advertisment/advertisment-tab.webp), no-repeat;
+        background-image: url(/img/advertisment/advertisment-tab.webp);
+        background-repeat: no-repeat;
         opacity: 0.2;
         }
 
@@ -87,10 +88,11 @@
 
 }
 
-@media only screen (min-resolution: 192dpi) and (min-resolution: 2dppx) {
+@media only screen and (min-resolution: 192dpi) and (min-resolution: 2dppx) {
     .advertisment {
         background-color: rgba(12, 12, 12, 1);
-        background-image: url(/img/advertisment/advertisment-tab@2x.webp), no-repeat;
+        background-image: url(/img/advertisment/advertisment-tab@2x.webp);
+        background-repeat: no-repeat;
         opacity: 0.2;
         }
 }
@@ -101,7 +103,8 @@
 .advertisment {
     max-width: 1150px;
     background-color: rgba(12, 12, 12, 1);
-    background-image: url(/img/advertisment/advertisment-desk.webp), no-repeat;
+    background-image: url(/img/advertisment/advertisment-desk.webp);
+    background-repeat: no-repeat;
     opacity: 0.2;
 
 }
@@ -135,7 +138,8 @@
 
 .advertisment {
     background-color: rgba(12, 12, 12, 1);
-    background-image: url(/img/advertisment/advertisment-desk@2x.webp), no-repeat;
+    background-image: url(/img/advertisment/advertisment-desk@2x.webp);
+    background-repeat: no-repeat;
     opacity: 0.2;
 }
 }
