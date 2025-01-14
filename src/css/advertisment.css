@@ -7,6 +7,7 @@
     background-color: rgba(12, 12, 12, 1);
     margin: 0 auto;
     background-size: cover;
+    background-position: center;
 }
 
 .advertisment-block {
@@ -62,6 +63,13 @@
         overflow: hidden;
 }
 
+@media only screen and (min-resolution: 192dpi) and (min-resolution: 2dppx) {
+    .advertisment {
+        background-color: rgba(12, 12, 12, 1);
+        background-image: url(/img/advertisment/advertisment-mob@2x.webp);
+        background-repeat: no-repeat;
+    }
+}
 
 @media only screen and (min-width: 768px) {
     .advertisment {
@@ -130,7 +138,7 @@
 
 }
 
-@media only screen and (min-width: 1280px) and (min-resolution: 192dpi),
+/* @media only screen and (min-width: 1280px) and (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
 
 .advertisment {
@@ -138,4 +146,4 @@
     background-image: url(/img/advertisment/advertisment-desk@2x.webp);
     background-repeat: no-repeat;
 }
-}
+} */
