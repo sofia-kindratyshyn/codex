@@ -77,7 +77,7 @@ p.sale-main-text {
     background: #3350e9;
     display: flex;
     flex-direction: column;
-    padding: 48px 24px;
+    padding: 48px 28px;
 }
 
 .sale-title-text {
@@ -88,7 +88,6 @@ p.sale-main-text {
     letter-spacing: -0.02em;
     color: #fbfbfb;
     margin-bottom: 10px;
-    max-width: 279px;
 }
 
 .h3-title-text {
