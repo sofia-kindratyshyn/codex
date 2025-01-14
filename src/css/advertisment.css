@@ -2,7 +2,8 @@
     max-width: 335px;
     text-align: center;
     border-radius: 30px;
-    background-image: url(/img/advertisment/advertisment-mob.webp), no-repeat;
+    background-image: url(/img/advertisment/advertisment-mob.webp);
+    background-repeat: no-repeat;
     background-color: rgba(12, 12, 12, 1);
     opacity: 0.2;
     margin: 0 auto;
@@ -86,22 +87,21 @@
 
 }
 
-@media only screen (min-resolution: 192dpi),
-(min-resolution: 2dppx){
+@media only screen (min-resolution: 192dpi) and (min-resolution: 2dppx) {
+    .advertisment {
+        background-color: rgba(12, 12, 12, 1);
+        background-image: url(/img/advertisment/advertisment-tab@2x.webp), no-repeat;
+        opacity: 0.2;
+        }
+}
 
-.advertisment {
-    background-color: rgba(12, 12, 12, 1);
-    background-image: url(/img/advertisment/advertisment-tab.webp), no-repeat;
-    opacity: 0.2;
-}
-}
 
 @media only screen and (min-width: 1280px) {
 
 .advertisment {
     max-width: 1150px;
     background-color: rgba(12, 12, 12, 1);
-    background-image: url(/imaes/advertisment/advertisment-desk.webp), no-repeat;
+    background-image: url(/img/advertisment/advertisment-desk.webp), no-repeat;
     opacity: 0.2;
 
 }
