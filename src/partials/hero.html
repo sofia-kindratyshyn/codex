@@ -31,7 +31,35 @@
         </div>
         </div>
         <div class="hero-picture">
-        </div>
+            <picture>
+              <source
+                media="(min-width: 1280px)"
+                srcset="
+                  ../img/hero_images/Rectangle_dest.webp 1x,
+                  ../img/hero_images/Rectangle_desk@2x.webp 2x
+                "
+              />
+              <source
+                media="(min-width: 768px)"
+                srcset="
+                  ../img/hero_images/Rectangle_tab.webp 1x,
+                  ../img/hero_images/Rectangle_tab@2x.webp 2x
+                "
+              />
+              <source
+                media="(max-width: 767px)"
+                srcset="
+                  /img/hero_images/Rectangle.webp  1x,
+                  /img/hero_images/Rectangle@2x.webp 2x
+                "
+              />
+              <img
+                class="about-us-images"
+                src="/img/hero_images/Rectangle_dest.webp"
+                alt="Rectangle"
+              />
+            </picture>
+          </div>
     </div>
 </section>
 

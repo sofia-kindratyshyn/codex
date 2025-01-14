@@ -109,25 +109,12 @@
     border-radius: 30px;
     max-width: 335px;
     height: 366px;
-    background: #fbfbfb;
-    background-image: url(../img/hero_images/Rectangle.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    
+   
 }
 .hero-two-wrap{
     margin-top: 60px;
 }
 
-@media (min-device-pixel-ratio: 2),
-	(min-resolution: 192dpi),
-	(min-resolution: 2dppx) {
-        .hero-picture {
-            background: #fbfbfb;
-            background-image: url(../img/hero_images/Rectangle@2x.webp);
-        }
-	}
 
     @media screen and (min-width: 768px){
   
@@ -191,21 +178,11 @@
             border-radius: 50px;
             max-width: 704px;
             height: 520px;
-            background: #fbfbfb;
-            background-image: url(../img/hero_images/Rectangle_tab.webp);
-   
-        }
-        @media (min-device-pixel-ratio: 2),
-	(min-resolution: 192dpi),
-	(min-resolution: 2dppx) {
-        .hero-picture {
-            background: #fbfbfb;
-            background-image: url(../img/hero_images/Rectangle_tab@2x.webp);
-        }
-        
+           
+        }      
 	}
 
-    } 
+    
     @media screen and (min-width: 1158px){
 
         .hero-images{  
@@ -218,18 +195,7 @@
             border-radius: 50px;
             max-width: 1150px;
             height: 500px;
-            background: #fbfbfb;
-            background-image: url(../img/hero_images/Rectangle_dest.webp);
-   
         }
-        @media (min-device-pixel-ratio: 2),
-	    (min-resolution: 192dpi),
-	    (min-resolution: 2dppx) {
-        .hero-picture {
-            background: #fbfbfb;
-            background-image: url(../img/hero_images/Rectangle_desk@2x.webp);
-        }
-	    }
         .hero-two-wrap{
             max-width: 1150px;
             height: 269px;
