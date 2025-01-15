@@ -40,6 +40,15 @@
 }
 
 /* Footer */
+.footer {
+  padding-bottom: 28px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    padding-bottom: 32px;
+  }
+}
 
 footer .container {
   background-color: #0c0c0c;

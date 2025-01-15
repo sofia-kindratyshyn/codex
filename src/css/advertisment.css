@@ -5,9 +5,10 @@
     background-image: url(/img/advertisment/advertisment-mob.webp);
     background-repeat: no-repeat;
     background-color: rgba(12, 12, 12, 1);
-    margin: 0 auto;
+    margin: auto;
     background-size: cover;
     background-position: center;
+    margin-bottom: 60px;
 }
 
 .advertisment-block {
