@@ -102,6 +102,7 @@
 .button-cont:hover{
     background-color: #1f3cd4; 
 }
+
 .button-cont:focus{
     background-color: #1f3cd4; 
 }
@@ -184,7 +185,6 @@
         align-items: stretch;
     }
     .div-model{
-
         border-radius: 50px;
         max-width: 580px;
         padding: 50px 60px;
